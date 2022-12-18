@@ -1,0 +1,336 @@
+<html>
+
+<head>
+    <title>STYLEIT</title>
+    <style>
+        .page {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.514);
+            border-radius: 30px;
+            backdrop-filter: blur(15px);
+            box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.718);
+            overflow: scroll;
+        }
+
+        body {
+            background-image: url("bg.webp");
+            margin: 32px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar {
+            display: flex;
+            padding: 15px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+
+        .navbutton {
+            background-color: transparent;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: none;
+            padding-left: 90px;
+            font-weight: bold;
+        }
+
+        .navbutton:hover {
+            color: rgb(0, 0, 0);
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.629);
+        }
+
+        .space {
+            flex: 5;
+        }
+
+        .navbartitle {
+            background-color: transparent;
+            padding-left: 20px;
+
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: none
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: -5px;
+            margin-top: 50px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .image {
+            border-radius: 30px;
+            width: 250px;
+            height: 300px;
+
+        }
+
+        .heading {
+            color: rgba(246, 103, 103, 0.95);
+            font-weight: normal;
+        }
+
+        .subheading {
+            color: rgba(0, 0, 0, 0.95);
+            font-weight: normal;
+            margin: 0;
+            padding: px;
+            text-align: center;
+
+        }
+
+        h1 {
+            font-size: 40px;
+
+        }
+
+        h2 {
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 20px;
+            font-style: italic;
+
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoom-out {
+            0% {
+                scale: 0.95;
+            }
+
+            100% {
+                scale: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar">
+
+            <button class="navbartitle">
+                AymarStylez
+            </button>
+            <div class="space">
+
+
+            </div>
+            <a href="page 2.html"><button class="navbutton">Style With Us</button></a>
+            <a href="page 3.html"><button class="navbutton">Must Have </button></a>
+            <a href="page_4.html"><button class="navbutton">About Us</button></a>
+            <a href="index.html"><button class="navbutton">Home</button></a>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <img class="image" style="animation:zoom-out 1.45s ease-in-out,fade-in 1.45s ease-in-out"
+                        width="200px" src="musthave/1.jpeg" />
+                    <h1 class="heading" style=" animation:zoom-out 1.2s ease-in-out,fade-in 1.2s ease-in-out" >WHITE T-SHIRT</h1>
+                    <h2 class="subheading">
+                        Women find a man in a plain white T-shirt up to 12 per cent more attractive, scientists claim. A
+                        plain white T-shirt can create an illusion that broadens the shoulders and slims the waist,
+                        producing a more V-shaped body, which is a top sign of masculinity
+                    </h2>
+                </div>
+                <div class="card">
+                    <img class="image" style="animation:zoom-out 1.45s ease-in-out,fade-in 1.45s ease-in-out"
+                        width="200px" src="musthave/2.jpeg" />
+                    <h1 class="heading" style=" animation:zoom-out 1.2s ease-in-out,fade-in 1.2s ease-in-out" > WHITE DRESSES</h1>
+                    <h2 class="subheading"> So if you're wondering how to accessorize a white dress for formal party,
+                        metallics are the way to go. If you want to keep it elegant, go minimal on bling, and try light
+                        chain accessories such as a simple pendant chain necklace and a chain bracelet. Crystal can work
+                        well, too </h2>
+                </div>
+            </div>
+
+            <div class="container">
+            <div class="row">
+                <div class="card">
+                    <img class="image" style="animation:zoom-out 1.45s ease-in-out,fade-in 1.45s ease-in-out"
+                        width="200px" src="musthave/3.jpeg" />
+                    <h1 class="heading">PLEATED SKIRTS</h1>
+                    <h2 class="subheading"> If this skirt looks familiar to you, there's a good reason for that: it's
+                        everywhere at the moment! Nearly every major celebrity, from Zendaya to Nicole Kidman, has worn
+                        this '00s-inspired bottom, inspiring bunch of knockoffs </h2>
+                </div>
+                <div class="card">
+                    <img class="image" style="animation:zoom-out 1.45s ease-in-out,fade-in 1.45s ease-in-out"
+                        width="200px" src="musthave/4.jpeg" w />
+                    <h1 class="heading">CAUSAL HOODIES</h1>
+                    <h2 class="subheading">If you like it stylish and casual at the same time, you could combine your
+                        hoodie with a leather jacket. Then, if you also include a hat and sunglasses, you can create a
+                        laid-back </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/5.jpeg" width="200px" />
+                <h1 class="heading">WHITE SHOES</h1>
+                <h2 class="subheading"> For many years, fashion experts insisted that white shoes should only be worn
+                    before Labor Day. The reasoning was that white was a summer color, and wearing white shoes after the
+                    end of summer would be considered gauche. However, times have changed, and white shoes are now
+                    considered acceptable for year-round wear.</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/6.jpeg" width="200px" />
+                <h1 class="heading"> GOLD JEWELLERY</h1>
+                <h2 class="subheading"> f you're warm toned, you'll look most harmonious when wearing gold jewelry. In
+                    terms of clothing, go for colors such as brown, copper, bronze, and red. For cool toned people,
+                    silver jewelry, and clothes in shades like blue, gray, and lilac are best</h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/7.jpeg" width="200px" />
+                <h1 class="heading">DARK BLUE JEAN</h1>
+                <h2 class="subheading">
+
+
+                    Neutrals always work with other neutrals, so feel confident in pairing your black jeans with white,
+                    grey, cream and navy and button-ups. Grey and white shirts create a clean combo, while a
+                    monochromatic black shirt and jeans pairing adds subtle contemporary edge.</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/8.jpeg" width="200px" />
+                <h1 class="heading">FULL HAND TOPS</h1>
+                <h2 class="subheading">Take the ends of your long sleeves and roll them up, scrunching them around the
+                    elbow. If you're wearing a dress shirt, unbutton the cuffs or lower half of the sleeve before
+                    rolling anything up. For a smooth but casual look, try to keep the sleeves bunched around the elbow.
+                </h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/9.jpeg" width="200px" />
+                <h1 class="heading">STUD EARING</h1>
+                <h2 class="subheading">Studs are the safest choice for beginners as they're easy to wear and more
+                    versatile than other styles. Studs give the edge of wearing an earring but with discretion.</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/10.jpeg" width="200px" />
+                <h1 class="heading">BLAZZERS</h1>
+                <h2 class="subheading">
+                    Image result for how to style blazer
+                    It can be dressed up for the office with your standard Oxford shirt, chinos and a pair of smart
+                    brown shoes and can easily transition to off-duty chic when paired with jeans, a tee and loafers.
+                </h2>
+            </div>
+        </div>
+
+    
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/11.jpeg" width="200px" />
+                <h1 class="heading">HATS</h1>
+                <h2 class="subheading"> They look stylish with every outfit and something about the time of year makes
+                    wearing a hat very stylish and you'll always look good in a hat in the fall. In the Fall, you can
+                    wear a hat with anything you wish. Jeans, dresses, blazers, skirts, you can even dress it up with
+                    trousers and heels. </h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/12.jpeg" width="200px" />
+                <h1 class="heading">BLACK JEANS</h1>
+                <h2 class="subheading">Neutrals always work with other neutrals, so feel confident in pairing your black
+                    jeans with white, grey, cream and navy and button-ups. Grey and white shirts create a clean combo,
+                    while a monochromatic black shirt and jeans pairing adds subtle contemporary edge</h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/13.jpeg" width="200px" />
+                <h1 class="heading">BLACK CROP TOP</h1>
+                <h2 class="subheading">A black crop top can be styled so many different ways, but the classic monochrome
+                    look never fails. Instead of defaulting to jeans, dress your top up with leather trousers and a sexy
+                    pump. Top it off with some oversized sunnies to tie your look together.</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/14.jpeg" width="200px" />
+                <h1 class="heading">WHITE SHORTS</h1>
+                <h2 class="subheading">
+                    Image result for how to style white shorts
+                    It goes with every color under the sun. White also pairs well with prints and patterns, from florals
+                    to plaids to ikat prints. You'll want to stick with colors and patterns that work well with your
+                    skin tone and your overall style. </h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/15.jpeg" width="200px" />
+                <h1 class="heading">WHITE SHIRT</h1>
+                <h2 class="subheading">A white shirt can be worn day or night, with jeans, a pantsuit or even a full
+                    skirt; your options are truly endless. Considered one of the most versatile wardrobe staples, a
+                    white shirt works for warm and cool seasons alike, because you can wear it with your favorite
+                    shorts, or even layer it under a sweater.</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/16.jpeg" width="200px" />
+                <h1 class="heading">RIPPED JEAN</h1>
+                <h2 class="subheading">Ripped jeans make an everyday look feel casual-cool, but pairing them with too
+                    many baggy or oversized pieces can make an outfit seem lazy. When you're styling your jeans, keep
+                    only one or two parts of the outfit oversized–and be sure to balance the look out with other slim
+                    fit staples.</h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="image" src="musthave/17.jpeg" width="200px" />
+                <h1 class="heading">FLORAL TOPS</h1>
+                <h2 class="subheading">One of the great things about a floral print is that there's usually another
+                    color involved to balance out the main color, be it bold or subtle. Counteract the bright color with
+                    neutral counterparts—white or off-white jeans and sneakers will complete your style canvas and go
+                    well with summertime weather and activities.09-Jul-2019</h2>
+            </div>
+            <div class="card">
+                <img class="image" src="musthave/18.jpeg" width="200px" />
+                <h1 class="heading">WHITE JEAN</h1>
+                <h2 class="subheading">So why do guys like women in white jeans? According to my research, white denim
+                    is eye-catching, tan enhancing, plus crisp and clean in the summer. White denim stands out in a sea
+                    of blue jeans and is generally a 'fashion risk' so wearing it can reflect self-confidence</h2>
+            </div>
+        </div>
+
+
+</body>
+</html>

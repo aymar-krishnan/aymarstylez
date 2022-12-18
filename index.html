@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <title>AYMARSTYLE</title>
+    <style>
+        body {
+            background-image: url("bg.webp");
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page {
+            width: 90%;
+            height: 90%;
+            background-color: rgba(255, 255, 255, 0.514);
+            border-radius: 30px;
+            backdrop-filter: blur(15px);
+            box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.718);
+        }
+
+        .navbartitle {
+            background-color: transparent;
+            padding-left: 20px;
+
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: none
+        }
+
+        .navbutton {
+            background-color: transparent;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: none;
+            padding-left: 50px;
+            font-weight: bold;
+        }
+
+        .navbutton:hover {
+            color: rgb(0, 0, 0);
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.629);
+        }
+
+        .space {
+            flex: 1;
+        }
+
+        .navbar {
+            display: flex;
+            padding: 15px;
+            padding-right: 30px;
+            padding-left: 25px;
+            padding-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            padding: 30px;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .leftcontainer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .headLine {
+            color: rgba(246, 103, 103, 0.95);
+            /* position: relative;
+            top: 50px;
+            left: 75px; */
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            font-size: 50px;
+            font-weight: normal;
+
+        }
+
+        .subLine {
+            color: rgba(0, 0, 0, 0.95);
+            /* position: relative;
+            top: 50px;
+            left: 75px; */
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            font-size: 30px;
+            margin: 0px;
+            font-weight: lighter;
+            /* padding-left: 45px; */
+        }
+
+        .first {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: white;
+            background-color: rgba(246, 103, 103, 0.95);
+            border: none;
+            border-radius: 40px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.625);
+            margin-left: 50px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .first:hover {
+            text-shadow: 6px 6px 25px rgba(0, 0, 0, 0.803);
+
+        }
+
+        a {
+            margin: 10px;
+        }
+
+        .logo {
+            margin-top: -5px;
+        }
+
+        @keyframes animl2r {
+            0% {
+                transform: translateX(-20px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoom-out {
+            0% {
+                scale: 0.95;
+            }
+
+            100% {
+                scale: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar">
+
+            <button class="navbartitle">
+                AymarStylez
+            </button>
+            <div class="space">
+
+
+            </div>
+            <a href="page 2.html"><button class="navbutton">Style With Us</button></a>
+            <a href="page 3.html"><button class="navbutton">Must Have </button></a>
+            <a href="page_4.html"><button class="navbutton">About Us</button></a>
+            <a href="index.html"><button class="navbutton">Home</button></a>
+
+            
+        </div>
+        <div class="container">
+            <div class="leftcontainer">
+                <h1 class="headLine" style="animation: animl2r 1s ease-in-out, fade-in 1s ease-in-out">Search for a
+                    Styling Idea</h1>
+                <h1 class="subLine" style="animation: animl2r 1.15s ease-in-out, fade-in 1.15s ease-in-out">"The
+                    secret
+                    of great style is <br>to feel good in what you wear"</h1>
+                <a href="https://youtu.be/3o-VB9Hss08"><button class="first" style="animation: animl2r 1.3s ease-in-out, fade-in 1.3s ease-in-out"> LET'S
+                    EXPLORE </button></a>
+            </div>
+            <div class="rightcontainer">
+                <!-- <h1 class="headLine">Search for a Styling Idea</h1> -->
+                <img class="logo" style=" animation:zoom-out 1.45s ease-in-out,fade-in 1.45s ease-in-out"
+                    width="450px" height="480" src="fashionlogo.png" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
